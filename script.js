@@ -4,5 +4,6 @@ document.addEventListener("DOMContentLoaded", function() {
     typeSpeed: 50,
     backspeed: 30,
     loop: true
+  
   });
 });
