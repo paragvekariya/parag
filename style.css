@@ -42,7 +42,7 @@ body {
   margin-right: auto;
   margin-left: auto;
   margin-top: 200px;
-  margin-bottom: 90 px;
+  margin-bottom: 30px;
 }
 
 .edu-underline {
@@ -112,14 +112,13 @@ a {
 
 .about-text h1 {
   margin-top: 33vh;
-  text-align: center;
 }
 
 .container1 {
-  width: 600px;
+  /*width: 600px;
   height: 500px;
   padding: 75px 90px;
-  margin-left: 120px;
+  margin-left: 120px;*/
 }
 
 .heading1 {
@@ -297,6 +296,9 @@ a {
   line-height: 1;
   text-align: left;
 }
+/*.contact-list{
+margin-bottom: 30px;
+}*/
 
 .heading2 span {
   color: #0ef;
@@ -305,5 +307,21 @@ a {
 .img {
   float: right;
   margin-top: -40vh;
-
 }
+.img-small {
+  width: 350px;
+}
+@media (max-width: 750px) {
+    #edu-box-container {
+        display: block;
+    }
+
+    .edu-box {
+        margin: 4px 0px;
+    }
+
+  .img-small {
+        width: 100px;
+   }
+  }
+  
